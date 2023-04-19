@@ -1,0 +1,39 @@
+Introducción a Git
+
+Git es un sistema de control de versiones distribuido de código abierto que se utiliza para gestionar el desarrollo de software y otros proyectos de manera colaborativa. Permite a los desarrolladores trabajar en el mismo código de manera simultánea, rastrear los cambios que se han hecho en el código, revertir cambios no deseados, y colaborar de manera efectiva en proyectos grandes.
+
+Git es muy popular en la comunidad de desarrollo de software debido a su rapidez, flexibilidad y su capacidad para manejar proyectos grandes y complejos. Además, es compatible con casi todos los sistemas operativos, lenguajes de programación y plataformas de alojamiento en la nube, lo que lo hace muy versátil y fácil de usar en cualquier entorno de desarrollo.
+
+En resumen, Git es una herramienta muy útil y poderosa para el control de versiones y el desarrollo colaborativo de software.
+
+
+
+
+Flujo de trabajo básico
+El flujo de trabajo básico en Git consta de los siguientes pasos:
+
+Crear un repositorio: esto se hace utilizando el comando git init en una carpeta local o utilizando una plataforma de alojamiento en la nube como GitHub, GitLab, Bitbucket, entre otros.
+
+Crear un archivo: se puede crear un archivo directamente en la carpeta local o en la plataforma de alojamiento en la nube.
+
+Agregar cambios: una vez creado el archivo, se debe agregar al área de preparación o de staging utilizando el comando git add.
+
+Confirmar cambios: después de agregar los cambios al área de preparación, se debe confirmar los cambios utilizando el comando git commit.
+
+Enviar cambios: finalmente, los cambios confirmados se envían al repositorio remoto utilizando el comando git push.
+
+Este flujo de trabajo básico se puede repetir en cada iteración de desarrollo de un proyecto, para controlar las versiones y mantener un historial de cambios detallado. Es importante recordar que Git es una herramienta muy poderosa y flexible, y que existen muchas formas de adaptar este flujo de trabajo básico a las necesidades específicas de cada proyecto o equipo de trabajo.
+
+
+
+
+Repositorios remotos
+Un repositorio remoto en Git es una versión de tu proyecto alojada en un servidor en línea, como GitHub, GitLab, Bitbucket, entre otros. Los repositorios remotos permiten colaborar con otras personas y trabajar en el mismo proyecto sin necesidad de estar físicamente en el mismo lugar.
+
+Para trabajar con un repositorio remoto, primero debes clonar o crear el repositorio remoto utilizando la plataforma en línea correspondiente. Luego, puedes agregar el repositorio remoto a tu repositorio local utilizando el comando git remote add.
+
+Una vez que has agregado el repositorio remoto, puedes enviar los cambios locales al repositorio remoto utilizando el comando git push. También puedes obtener los cambios del repositorio remoto utilizando el comando git pull.
+
+Es importante tener en cuenta que los repositorios remotos pueden tener diferentes permisos y niveles de acceso. Por ejemplo, algunos repositorios pueden ser públicos, lo que significa que cualquier persona puede acceder a ellos, mientras que otros pueden ser privados y requerir autenticación para acceder a ellos.
+
+En resumen, los repositorios remotos son una parte esencial del flujo de trabajo en Git y permiten colaborar de forma eficiente en proyectos de software en equipo, además de mantener un control de versiones centralizado.
